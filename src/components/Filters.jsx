@@ -23,7 +23,7 @@ export function Filters( {onChange}) {
     <section className="filters">
       <div className="">
         <label htmlFor="price">Price from:</label>
-        <input type="range" id="price" min="0" max="3000" onChange={handleRangePrice}/>
+        <input type="range" id="price" min="0" max="1800" onChange={handleRangePrice}/>
         <span>{minPrice}</span>
       </div>
       <div className="">
