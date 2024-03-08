@@ -1,4 +1,4 @@
-import { useState, useId } from "react";
+import { useState, useId} from "react";
 import "./Filters.css";
 export function Filters( {onChange}) {
     const [minPrice, setMinPrice] = useState(0)
