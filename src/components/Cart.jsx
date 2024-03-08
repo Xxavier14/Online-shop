@@ -1,7 +1,7 @@
 import { useId } from "react"
 import './Cart.css'
 export function Cart (){
-    const cartCheckBoxId = useId
+    const cartCheckBoxId = useId()
     return (
         <>
             <label htmlFor={cartCheckBoxId} className="cart-button"></label>
@@ -10,7 +10,7 @@ export function Cart (){
             <aside className="cart">
                 <ul>
                     <li>
-                        <img src="" alt="" />
+                        <img src="https://cdn.dummyjson.com/product-images/2/thumbnail.jpg" alt="" />
                         <div>
                             <strong>iphone</strong> - $300
                         </div>
