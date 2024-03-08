@@ -1,6 +1,7 @@
+import './Products.css'
 export function Products({ products }) {
   return (
-    <main>
+    <main className='products'>
       <ul>
         {products.slice(0, 10).map((product) => (
           <li key={product.id}>
