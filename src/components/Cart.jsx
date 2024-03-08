@@ -11,10 +11,10 @@ function CartItem ( { thumbnail, title, price, description, quantity, addToCart}
             <strong>{title}</strong> - ${price}
         </div>
         <footer>
-            <small onClick={addToCart}>
-                qtty :{quantity}
+            <small >
+                Amount : {quantity}
             </small>
-            <button>+</button>
+            <button onClick={addToCart}>+</button>
         </footer>
     </li>
     )
