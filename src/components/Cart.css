@@ -38,9 +38,9 @@
     height: 32px;
     justify-content: center;
     padding: 4px;
-    position: absolute;
-    right: 8px;
-    top: 8px;
+    position: fixed;
+    right: 38px;
+    top: 38px;
     transition: all .3s ease;
     width: 32px;
     z-index: 9999;
@@ -53,4 +53,11 @@
   .cart-button ~ input:checked ~ .cart {
     height: 100%;
     display: block;
+  }
+
+  @media (max-width: 600px) {  
+    .cart-button {
+      right: 28px;
+      top: 28px;
+    }
   }

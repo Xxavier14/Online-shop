@@ -1,7 +1,7 @@
 import { useCart } from '../hooks/useCart';
 import './Products.css'
 export function Products({ products }) {
-  const { addToCart, cart} = useCart()
+  const { addToCart, cart, removeToCart} = useCart()
 
   const checkProductInCart = product => {
     return cart.some( item => item.id === product.id)
@@ -19,7 +19,8 @@ export function Products({ products }) {
               <strong>{product.title} - ${product.price}</strong>
             </div>
             <div >
-              <button onClick={()=> addToCart(product) }>
+              <button style={{backgroundColor: isProductInCart ? 'rgba(180,60,66,.8)' : 'rgba(60,179,113,.5'}}
+              onClick={()=> isProductInCart? removeToCart(product) : addToCart(product) }>
                 {
                   isProductInCart? 'Quitar del carrito' : 'Añadir al carrito'
                 }
