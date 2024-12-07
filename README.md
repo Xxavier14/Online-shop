@@ -9,3 +9,7 @@
 - modificar cantidad de productos del carrito
 - sincronizar cambios del carrito con la lista de productos
 - guardar en local storage el carrito
+
+- Cambiar el Json, a una consulta a la api: 'https://dummyjson.com/products'
+- DOC: https://dummyjson.com/docs/products
+- 
