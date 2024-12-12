@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Products } from "./components/Products";
-import { products as initialProducts } from "./mock/products.json";
+// import { products as initialProducts } from "./mock/products.json";
+import { products as initialProducts } from "./mock/NewProducts.json";
 import { useState } from "react";
 import { Footer } from "./components/Footer";
 import { IS_DEVELOPMENT } from "./config";
