@@ -60,3 +60,19 @@
     border: 2px solid #404040;
     border-radius: 50%;
   }
+
+  
+  @media (max-width: 600px) {  
+    .filters {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column-reverse;
+      gap: 2px;
+      margin: auto;
+    }
+    .filters div{
+      gap: .5rem;
+    }
+  }

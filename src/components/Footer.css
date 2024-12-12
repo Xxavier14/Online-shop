@@ -20,17 +20,3 @@
     margin: 0;
     display: flex;
   }
-
-  @media (max-width: 600px) {  
-    .filters {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-direction: column-reverse;
-      gap: 2px;
-      margin: auto;
-    }
-    .filters div{
-      gap: .5rem;
-    }
-  }
