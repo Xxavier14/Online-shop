@@ -31,7 +31,7 @@ export function Filters() {
           type="range"
           id={minPriceFilterId}
           min="0"
-          max="1800"
+          max="500"
           onChange={handleRangePrice}
           value={filters.minPrice}
         />
